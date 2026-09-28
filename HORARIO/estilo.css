@@ -1,0 +1,20 @@
+html{
+    width: 1400px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}

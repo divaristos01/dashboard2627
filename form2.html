@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="procesar2.php" method="GET">
+        <label>ASIGNATURAS</label>
+        <select name="asignaturas">
+            <option value="">SELECCIONA ASIGNATURA: </option>
+            <option value="cliente">CLIENTE </option>
+            <option value="servidor">SERVIDOR </option>
+            <option value="program">PROGRAMACIÓN </option>
+        </select>
+        <br>
+
+
+        <input type="checkbox" name="profesor[]" value="luis">LUIS
+        <br>
+        <input type="checkbox" name="profesor[]" value="isa">ISA
+        <br>
+        <input type="checkbox" name="profesor[]" value="ernesto">ERNESTO
+        <br>
+
+        <label>HORAS: </label>
+        <input type="text" name="horas">
+        <br><br>
+
+        <label>INFORMACION</label>
+        <br>
+        <textarea name="info" id=""></textarea>
+        <br><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
